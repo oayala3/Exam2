@@ -15,11 +15,17 @@ The solution is to add all the values that you can get by doing
 findAll(int x,int y, int[][] A)
 create an array of the same dimentions
 then 
-for (A.leght)
+for (A.leght)  
 locationX=i  
   
-if(y+1<A[0].leght)  
+if(y+1<A[0].leght)
 if(locationX==0) call the funtion on findAll(x,y+1,A) and findAll(x+1,y+1,A)  
 if(locationX==A.lenght) call the funtion on findAll(x,y+1,A) and findAll(x-1,y+1,A)  
 else findAll(x,y+1,A) and findAll(x-1,y+1,A) and findAll(x,y-1,A)  
- 
+  
+else
+min=arr[x][y]
+arr[x][y]=min
+return min  
+  
+The general idea id to traverse trhough the whole 2d array. Every time you trurn finf the min og the 2 or 3 locations you picked and save that to an array.  
