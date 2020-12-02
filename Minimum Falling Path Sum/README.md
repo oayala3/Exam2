@@ -8,7 +8,7 @@ Some things that I noted was that going down choosing the smallest onw you see c
 |      1  
 |     /|\  
 |    1 2 3  
-|   /|\/|\|
+|   /|\/|\|  
 |  9 9 9 9 1
 The smallest possible way to going to the bottom is by picking 3 and 1
 Solution:  
