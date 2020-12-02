@@ -4,11 +4,11 @@ A falling path starts at any element in the first row, and chooses one element f
 |      1  
 |     /|\  
 |    1 2 3  
-Some things that I noted was that going down choosing the smallest onw you see cause you can enclose yourself with the highest numbers. Example
-|      1  
-|     /|\  
-|    1 2 3  
-|   /|\/|\|  
+Some things that I noted was that going down choosing the smallest onw you see cause you can enclose yourself with the highest numbers. Example  
+|       1  
+|      /|\  
+|     1 2 3  
+|   /|\/|\/|  
 |  9 9 9 9 1
 The smallest possible way to going to the bottom is by picking 3 and 1
 Solution:  
